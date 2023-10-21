@@ -41,8 +41,12 @@ _itemsTrow = ["vn_m67_grenade_mag","vn_m18_white_mag","vn_m18_green_mag","vn_m18
 _itemTrowAmt = [2,2,2,0,0,0];
 
 _itemsRole = ["ACE_Flashlight_XL50","ACE_EntrenchingTool"];
-_itemsSpecial = ["vn_b_item_toolkit","ACE_Clacker","ACE_wirecutter","vn_mine_cartridge_mag","vn_mine_satchel_remote_02_mag",""];
-_itemsSpecialAmt = [0,1,1,6,0];
+_itemsDMR = ["ACE_RangeCard","ACE_SpottingScope", _itemsRadio select 0, _itemsRole select 0, _itemsRole select 2];
+_itemsSpecial = ["vn_b_item_toolkit","ACE_Clacker","ACE_wirecutter","","ACE_DefusalKit","ACE_marker_flags_red","ACE_marker_flags_green"];
+_itemsSpecialAmt = [0,1,1,0,1,6,6];
+
+_itemEngExpl = ["vn_mine_cartridge_mag","vn_mine_satchel_remote_02_mag"];
+_itemEngMine = ["","","","",""]; // needs filling
 
 _itemsPackMedic	= ["ACE_fieldDressing","ACE_elasticBandage","ACE_quikclot","ACE_tourniquet","ACE_splint","ACE_morphine","ACE_epinephrine","ACE_bloodIV","ACE_plasmaIV_500","ACE_salineIV_500","ACE_surgicalKit"];
 _itemsPackMedicAmt = [50,50,10,12,15,30,20,6,6,2,1];
@@ -70,7 +74,9 @@ if (!isPlayer _unit) exitWith
 		_itemsRadio, 
 		_itemsSpecial, 
 		_itemsRole, 
-		_itemsNVG
+		_itemsNVG,
+		_itemEngExpl,
+		_itemEngMine
 	];
 
 	#include "\lt_template_gear_vn\Reference\LT_Items.sqf"
@@ -284,6 +290,12 @@ if (_role == "medic") then
 };
 
 // Add special gear
+if (_role == "dmr") then 
+{
+	{
+		(backpackContainer _unit) addItemCargoGlobal [_x, 1];
+	}forEach _itemsDMR;
+};
 if (_role IN _roleSpecial) then 
 {
 	_unit setUnitTrait ["engineer", true];
