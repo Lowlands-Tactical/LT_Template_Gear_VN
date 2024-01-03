@@ -54,7 +54,7 @@ switch (_lt_camoTMP) do
 		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_MACVDark.sqf"
 	};
 	case 11: {
-		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_VC_Main_Army_Black.sqf"
+		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_VC_Main_Force_Black.sqf"
 	};
 	case 12: {
 		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_VC_Local_Cadre_Mixed.sqf"
@@ -72,7 +72,7 @@ switch (_lt_camoTMP) do
 		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_PAVN_Marines_BlueWhite.sqf"
 	};
 	case 17: {
-		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_PAVN_Commandos.sqf"
+		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_PAVN_Commandos_Mixed.sqf"
 	};
 	case 18: {
 		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_FANK_Army_Olive.sqf"
@@ -84,6 +84,6 @@ switch (_lt_camoTMP) do
 		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_ARVN_Ranger_BDQ.sqf"
 	};
 	case 21: {
-		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_RLA_Army_Frog.sqf"
+		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_RLA_Army_Olive.sqf"
 	};
 };
