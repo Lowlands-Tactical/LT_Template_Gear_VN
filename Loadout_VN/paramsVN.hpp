@@ -43,7 +43,7 @@ class lt_gear_camo_blue
 {
     title = "[BLUEFOR] - Camoflage";
     values[] = {0,1,2,3,4,5,6,7,8,9,10};
-    texts[] = {"Use customGear","US Army Olive","US Army ERDL Brown","US Navy Olive","US Special Forces 66 Leopard","US Special Forces Tiger","AUS Army Olive","AUS SAS ERDL","ROK Army Olive","MACV Olive","MACV Black"};
+    texts[] = {"Use customGear","US Army Olive","US Army ERDL Brown","US Navy Olive","US Special Forces 66 Leopard","US Special Forces Tiger","AUS Army Olive","AUS SAS ERDL","ROK Army Frog","MACV Olive","MACV Black"};
     default = BLUE_GEAR;
 };
 class lt_gear_weapon_blue

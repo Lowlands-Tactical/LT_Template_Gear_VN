@@ -45,7 +45,7 @@ switch (_lt_camoTMP) do
 		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_AUS_SAS_ERDL.sqf"
 	};
 	case 8: {
-		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_ROK_Army_Olive.sqf"
+		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_ROK_Army_Frog.sqf"
 	};
 	case 9: {
 		#include "\lt_template_gear_vn\Loadout_VN\Camo\LT_camo_MACV.sqf"
