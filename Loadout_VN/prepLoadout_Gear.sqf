@@ -41,7 +41,7 @@ _itemsTrow = ["vn_m67_grenade_mag","vn_m18_white_mag","vn_m18_green_mag","vn_m18
 _itemTrowAmt = [2,2,2,0,0,0];
 
 _itemsRole = ["ACE_Flashlight_XL50","ACE_EntrenchingTool"];
-_itemsDMR = ["ACE_RangeCard","ACE_SpottingScope", _itemsRadio select 0, _itemsRole select 0, _itemsRole select 2];
+_itemsDMR = ["ACE_RangeCard","ACE_SpottingScope", _itemsRadio select 1, _itemsRole select 0, _itemsRole select 2];
 _itemsSpecial = ["vn_b_item_toolkit","ACE_Clacker","ACE_wirecutter","","ACE_DefusalKit","ACE_marker_flags_red","ACE_marker_flags_green"];
 _itemsSpecialAmt = [0,1,1,0,1,6,6];
 
