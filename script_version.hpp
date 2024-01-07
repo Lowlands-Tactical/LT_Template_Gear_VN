@@ -1,6 +1,6 @@
 #define MAJOR 2
 #define MINOR 23
-#define BUILD 23
+#define BUILD 24
 
 #define VERSION MAJOR.MINOR
 #define VERSION_STR MAJOR.MINOR.BUILD
