@@ -45,7 +45,7 @@ _itemsDMR = ["ACE_RangeCard","ACE_SpottingScope", _itemsRadio select 1, _itemsRo
 _itemsSpecial = ["vn_b_item_toolkit","ACE_Clacker","ACE_wirecutter","","ACE_DefusalKit","ACE_marker_flags_red","ACE_marker_flags_green"];
 _itemsSpecialAmt = [0,1,1,0,1,6,6];
 
-_itemEngExpl = ["vn_mine_cartridge_mag","vn_mine_satchel_remote_02_mag"];
+_itemEngExpl = ["vn_mine_satchel_remote_02_mag","vn_mine_cartridge_mag"];
 _itemEngMine = ["","","","",""]; // needs filling
 
 _itemsPackMedic	= ["ACE_fieldDressing","ACE_elasticBandage","ACE_quikclot","ACE_tourniquet","ACE_splint","ACE_morphine","ACE_epinephrine","ACE_bloodIV","ACE_plasmaIV_500","ACE_salineIV_500","ACE_surgicalKit"];
@@ -306,6 +306,7 @@ if (_role IN _roleSpecial) then
 		_unit setUnitTrait ["explosiveSpecialist", true];
 		if (_roleItems == 1) then 
 		{
+			(backpackContainer _unit) addItemCargoGlobal [_itemEngExpl select 0, 6];
 			{
 				(backpackContainer _unit) addItemCargoGlobal [_x, _itemsSpecialAmt select _forEachIndex];
 			}forEach _itemsSpecial;
