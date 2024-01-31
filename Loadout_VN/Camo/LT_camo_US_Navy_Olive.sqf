@@ -38,6 +38,6 @@ _helmJet = ["vn_b_helmet_aph6_01_01","vn_b_helmet_aph6_01_02","vn_b_helmet_aph6_
 _backpackSmall = ["vn_b_pack_01"];
 _backpackLarge = ["vn_b_pack_05"];
 _backpackMedic = ["vn_b_pack_lw_07"];
-_backpackRadio = ["vn_b_pack_prc77_01"];
+_backpackRadio = ["vn_b_pack_03"];
 
 // =====================================================================================

@@ -218,6 +218,7 @@ if (_role IN _srRadio) then
 if (_role IN _roleRadio) then 
 {
 	_unit addBackpackGlobal (selectRandom _backpackRadio);
+	clearAllItemsFromBackpack _unit;
 	(backpackContainer _unit) addItemCargoGlobal [_itemsRadio select 1, 1];
 };
 if (_role IN _roleCrew) then 
