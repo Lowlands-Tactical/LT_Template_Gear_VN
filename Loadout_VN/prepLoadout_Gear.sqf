@@ -66,7 +66,7 @@ if (!isPlayer _unit) exitWith
 {
 	// Define variables for vehicle loadout
 	_itemsNVG = ["",_itemsRole select 0,""];
-	_itemsRole = ["","",_itemsRole select 1];
+	_itemsRole = ["","",_itemsRole select 1,"",""];
 	_items = 
 	[
 		_itemsTrow, 
