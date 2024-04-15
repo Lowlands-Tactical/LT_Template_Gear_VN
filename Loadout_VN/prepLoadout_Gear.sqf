@@ -35,7 +35,7 @@ _roleItems = _unit getVariable ["LT_unit_item", 1];
 
 _itemsLink = ["vn_b_item_map","vn_b_item_compass","vn_b_item_watch"];
 _itemsRadio = ["","ACRE_PRC77"];
-_itemsUniform = ["ACE_fieldDressing","ACE_elasticBandage","ACE_tourniquet","ACE_morphine","ACE_splint","ACE_quikclot","ACE_CableTie"];
+_itemsUniform = ["ACE_fieldDressing","ACE_elasticBandage","ACE_tourniquet","ACE_painkillers","ACE_splint","ACE_quikclot","ACE_CableTie"];
 _itemUniformAmt = [5,5,2,2,2,2,1];
 _itemsTrow = ["vn_m67_grenade_mag","vn_m18_white_mag","vn_m18_green_mag","vn_m18_red_mag","vn_m18_yellow_mag","vn_m18_purple_mag"];
 _itemTrowAmt = [2,2,2,0,0,0];
@@ -48,8 +48,8 @@ _itemsSpecialAmt = [0,1,1,0,1,6,6];
 _itemEngExpl = ["vn_mine_satchel_remote_02_mag","vn_mine_cartridge_mag"];
 _itemEngMine = ["","","","",""]; // needs filling
 
-_itemsPackMedic	= ["ACE_fieldDressing","ACE_elasticBandage","ACE_quikclot","ACE_tourniquet","ACE_splint","ACE_morphine","ACE_epinephrine","ACE_bloodIV","ACE_plasmaIV_500","ACE_salineIV_500","ACE_surgicalKit"];
-_itemsPackMedicAmt = [50,50,10,12,15,30,20,6,6,2,1];
+_itemsPackMedic	= ["ACE_fieldDressing","ACE_elasticBandage","ACE_quikclot","ACE_tourniquet","ACE_splint","ACE_painkillers","ACE_morphine","ACE_epinephrine","ACE_bloodIV","ACE_plasmaIV_500","ACE_salineIV_500","ACE_surgicalKit"];
+_itemsPackMedicAmt = [50,50,10,12,15,10,30,20,6,6,2,1];
 
 // Define role specific parameters
 _rolePackSmall = ["com","sql","jtac","ftl","gren","rifl","dmr","comms","ar","vhco","vhgu","vhdr"];
